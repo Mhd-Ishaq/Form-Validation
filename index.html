@@ -1,0 +1,148 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/normalize.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Connect with us</h2>
+    <form action="#" class="form" id="form">
+      <div class="form-control">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter Username"
+          />
+          <small> Username is required</small>
+      </div>
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Enter Email Address"
+          />
+          <small> Email is required</small>
+      </div>
+      <div class="form-control">
+        <label for="password">password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter Password"
+          />
+          <small> Password is required</small>
+      </div>
+      <div class="form-control">
+        <label for="confirm-password">Confirm password</label>
+        <input
+          type="password"
+          name="confirm-password"
+          id="confirm-password"
+          placeholder="Confirm Password"
+          />
+          <small> Confirm Password is required</small>
+      </div>
+      <button type="submit">submit</button>
+    </form>
+  </div>
+  <script src="./scripts/script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validator</title>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Connect with us</h2>
+      <form action="#" class="form" id="form">
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter Username"
+          />
+          <small>Username is Required</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Enter Email Address"
+          />
+          <small>Email is Required</small>
+        </div>
+
+        <div class="form-control">
+          <label for="number"> Mobile Number</label>
+          <input
+            type="tel"
+            name="number"
+            id="number"
+            placeholder="Enter Mobile Number"
+          />
+          <small>Mobile Number is Required</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter Password"
+          />
+          <small>Password is Required</small>
+        </div>
+
+        <div class="form-control">
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+            placeholder="Confirm Password"
+          />
+          <small>Conform Password is Required</small>
+        </div>
+
+        <div class="form-control">
+          <label for="message">Enter Your Issue</label>
+          <textarea
+            name="message"
+            id="message"
+            name="message"
+            placeholder="Enter your issue/message"
+            rows="3"
+            ></textarea>
+            <p id ='show'> 0</p>
+          <small>Enter Your Issue</small>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

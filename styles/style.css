@@ -1,0 +1,219 @@
+/* @import url('https://fonts.googleapis.com/css2? family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --success: #2ecc71;
+  --error: #e74c3c;
+  --text-color: #777;
+  --white: #f9fafb;
+  --dark-text: #1c2042;
+}
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+  font-family: 'poppins',sans-serif;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: var(--dark-text);
+}
+.container{
+  background-color: var(--white);
+  box-shadow:0 0 5px rgba(0,0,0,0.3);
+  width: 40rem;
+  min-width :25rem;
+  border-radius: 0.5rem;
+}
+h2{
+  text-align: center;
+  margin:1rem 2rem 0;
+  font-size: 3rem;
+}
+.form{
+padding:3rem 4rem;
+}
+.form-control {
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+  position: relative;
+}
+.form-control label{
+  color: var(--text-color);
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+}
+.form-control input{
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--text-color);
+  font-size: 1.8rem;
+}
+.form-control input:focus{
+  outline: 0;
+  border-color: var(--dark-text);
+}
+.form-control.error input{
+  border-color: var(--error);
+}
+.form-control.success input{
+  border-color: var(--success);
+}
+.form-control small{
+  color: var(--error);
+  font-size: 1.4rem;
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0.5rem;
+  visibility: hidden;
+}
+.form-control.error small{
+  visibility: visible;
+}
+button{
+  cursor: pointer;
+  background-color: var(--dark-text);
+  border: 2px solid var(--dark-text);
+  border-radius: 0.5rem;
+  width: 100%;
+  color: var(--white);
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  display: block;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --success: #2ecc71;
+  --error: #e74c3c;
+  --text-color: #777;
+  --white: #fff;
+  --dark-text: #1c2042;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 8px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  color: var(--dark-text);
+}
+
+.container {
+  background-color: var(--white);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 40rem;
+  border-radius: 0.5rem;
+}
+
+h2 {
+  text-align: center;
+  margin: 1rem 2rem 0;
+  font-size: 3rem;
+}
+
+.form {
+  padding: 3rem 4rem;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+.form-control label {
+  color: var(--text-color);
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.form-control input,
+.form-control textarea {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--text-color);
+  font-size: 1.8rem;
+}
+textarea {
+  resize: none;
+}
+
+
+.form-control input:focus {
+  outline: 0;
+  border-color: var(--dark-text);
+}
+
+.form-control.error input {
+  border-color: var(--error);
+}
+
+.form-control.success input {
+  border-color: var(--success);
+}
+
+.form-control small{
+  color: var(--error);
+  font-size: 1.4rem;
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0.5rem;
+  visibility: hidden;
+  /* display: none; */
+}
+
+#show{
+  color: var(--success);
+  font-size: 1.4rem;
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0.5rem;
+  margin-top: 6rem;
+  /* visibility: hidden; */
+}
+.form-control.error small {
+  visibility: visible;
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--dark-text);
+  border: 2px solid var(--dark-text);
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--white);
+  padding: 1rem 2rem;
+  display: block;
+  width: 100%;
+}
